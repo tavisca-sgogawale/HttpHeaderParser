@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>HttpHeaderParser</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="HttpRequestParser.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="HttpRequestHeader.txt" />
+  </ItemGroup>
+
+</Project>
